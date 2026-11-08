@@ -1,0 +1,3 @@
+/home/vietnamarklocalpc/learn/build/CMakeFiles/CoinChange.dir
+/home/vietnamarklocalpc/learn/build/CMakeFiles/edit_cache.dir
+/home/vietnamarklocalpc/learn/build/CMakeFiles/rebuild_cache.dir
