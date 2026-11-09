@@ -1,0 +1,10 @@
+#binary
+build/
+bin/
+*.exe
+*.object
+*.o
+#data
+*.db
+#cmake
+CMakeLists.txt

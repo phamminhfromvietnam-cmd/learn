@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named CoinChange
+# Target rules for targets named SQLite
 
 # Build rule for target.
-CoinChange: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CoinChange
-.PHONY : CoinChange
+SQLite: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SQLite
+.PHONY : SQLite
 
 # fast build rule for target.
-CoinChange/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoinChange.dir/build.make CMakeFiles/CoinChange.dir/build
-.PHONY : CoinChange/fast
+SQLite/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SQLite.dir/build.make CMakeFiles/SQLite.dir/build
+.PHONY : SQLite/fast
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoinChange.dir/build.make CMakeFiles/CoinChange.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SQLite.dir/build.make CMakeFiles/SQLite.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -142,7 +142,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoinChange.dir/build.make CMakeFiles/CoinChange.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SQLite.dir/build.make CMakeFiles/SQLite.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -150,7 +150,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoinChange.dir/build.make CMakeFiles/CoinChange.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SQLite.dir/build.make CMakeFiles/SQLite.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... CoinChange"
+	@echo "... SQLite"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
